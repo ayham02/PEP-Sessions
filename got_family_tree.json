@@ -1,0 +1,527 @@
+{
+  "meta": {
+    "root": "world",
+    "generated_at": "2026-02-03T10:38:42.175025Z",
+    "view": {
+      "dx": -53.5,
+      "dy": 7.5
+    }
+  },
+  "nodes": [
+    {
+      "id": "world",
+      "name": "Westeros",
+      "house": null,
+      "synthetic": true,
+      "x": 39.0,
+      "y": 0.0,
+      "expanded": false,
+      "father": null,
+      "mother": null,
+      "children": [
+        "t1",
+        "s3",
+        "b1",
+        "l1"
+      ],
+      "spouses": []
+    },
+    {
+      "id": "t1",
+      "name": "Aegon I",
+      "house": "Targaryen",
+      "synthetic": false,
+      "x": 38.0,
+      "y": 0,
+      "expanded": true,
+      "father": null,
+      "mother": null,
+      "children": [
+        "t2"
+      ],
+      "spouses": []
+    },
+    {
+      "id": "s3",
+      "name": "Rickard Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 39.5,
+      "y": 0,
+      "expanded": false,
+      "father": null,
+      "mother": null,
+      "children": [
+        "s4",
+        "s5",
+        "s1"
+      ],
+      "spouses": []
+    },
+    {
+      "id": "b1",
+      "name": "Steffon Baratheon",
+      "house": "Baratheon",
+      "synthetic": false,
+      "x": 41.0,
+      "y": 0,
+      "expanded": false,
+      "father": null,
+      "mother": null,
+      "children": [
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "spouses": []
+    },
+    {
+      "id": "l1",
+      "name": "Tywin Lannister",
+      "house": "Lannister",
+      "synthetic": false,
+      "x": 53.0,
+      "y": 0,
+      "expanded": false,
+      "father": null,
+      "mother": null,
+      "children": [
+        "l3",
+        "l4",
+        "l5"
+      ],
+      "spouses": [
+        "l2"
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "Maekar I",
+      "house": "Targaryen",
+      "synthetic": false,
+      "x": 44.0,
+      "y": 0,
+      "expanded": true,
+      "father": "t1",
+      "mother": null,
+      "children": [
+        "t5"
+      ],
+      "spouses": []
+    },
+    {
+      "id": "t5",
+      "name": "Aerys II",
+      "house": "Targaryen",
+      "synthetic": false,
+      "x": 45.5,
+      "y": 0,
+      "expanded": true,
+      "father": "t2",
+      "mother": null,
+      "children": [
+        "t6",
+        "t7",
+        "t8"
+      ],
+      "spouses": []
+    },
+    {
+      "id": "t6",
+      "name": "Rhaegar Targaryen",
+      "house": "Targaryen",
+      "synthetic": false,
+      "x": 47.0,
+      "y": 0,
+      "expanded": true,
+      "father": "t5",
+      "mother": null,
+      "children": [
+        "s2"
+      ],
+      "spouses": []
+    },
+    {
+      "id": "t7",
+      "name": "Viserys Targaryen",
+      "house": "Targaryen",
+      "synthetic": false,
+      "x": 48.5,
+      "y": 0,
+      "expanded": false,
+      "father": "t5",
+      "mother": null,
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "t8",
+      "name": "Daenerys Targaryen",
+      "house": "Targaryen",
+      "synthetic": false,
+      "x": 50.0,
+      "y": 0,
+      "expanded": false,
+      "father": "t5",
+      "mother": null,
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "s4",
+      "name": "Eddard Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 51.5,
+      "y": 0,
+      "expanded": false,
+      "father": "s3",
+      "mother": null,
+      "children": [
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "spouses": [
+        "tully1"
+      ]
+    },
+    {
+      "id": "s5",
+      "name": "Benjen Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 53.0,
+      "y": 0,
+      "expanded": false,
+      "father": "s3",
+      "mother": null,
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "s1",
+      "name": "Lyanna Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 54.5,
+      "y": 0,
+      "expanded": false,
+      "father": "s3",
+      "mother": null,
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "tully1",
+      "name": "Catelyn Tully",
+      "house": "Tully",
+      "synthetic": false,
+      "x": 52.7,
+      "y": 0,
+      "expanded": false,
+      "father": null,
+      "mother": null,
+      "children": [],
+      "spouses": [
+        "s4"
+      ]
+    },
+    {
+      "id": "s6",
+      "name": "Robb Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 56.0,
+      "y": 0,
+      "expanded": false,
+      "father": "s4",
+      "mother": "tully1",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "s7",
+      "name": "Sansa Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 57.5,
+      "y": 0,
+      "expanded": false,
+      "father": "s4",
+      "mother": "tully1",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "s8",
+      "name": "Arya Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 59.0,
+      "y": 0,
+      "expanded": false,
+      "father": "s4",
+      "mother": "tully1",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "s9",
+      "name": "Bran Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 60.5,
+      "y": 0,
+      "expanded": false,
+      "father": "s4",
+      "mother": "tully1",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "s10",
+      "name": "Rickon Stark",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 62.0,
+      "y": 0,
+      "expanded": false,
+      "father": "s4",
+      "mother": "tully1",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "s2",
+      "name": "Jon Snow",
+      "house": "Stark",
+      "synthetic": false,
+      "x": 63.5,
+      "y": 0,
+      "expanded": true,
+      "father": "t6",
+      "mother": "s1",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "b2",
+      "name": "Robert Baratheon",
+      "house": "Baratheon",
+      "synthetic": false,
+      "x": 103.0,
+      "y": 0,
+      "expanded": false,
+      "father": "b1",
+      "mother": null,
+      "children": [],
+      "spouses": [
+        "l4"
+      ]
+    },
+    {
+      "id": "b3",
+      "name": "Stannis Baratheon",
+      "house": "Baratheon",
+      "synthetic": false,
+      "x": 66.5,
+      "y": 0,
+      "expanded": false,
+      "father": "b1",
+      "mother": null,
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "b4",
+      "name": "Renly Baratheon",
+      "house": "Baratheon",
+      "synthetic": false,
+      "x": 68.0,
+      "y": 0,
+      "expanded": false,
+      "father": "b1",
+      "mother": null,
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "l2",
+      "name": "Joanna Lannister",
+      "house": "Lannister",
+      "synthetic": false,
+      "x": 54.2,
+      "y": 0,
+      "expanded": false,
+      "father": null,
+      "mother": null,
+      "children": [],
+      "spouses": [
+        "l1"
+      ]
+    },
+    {
+      "id": "l3",
+      "name": "Jaime Lannister",
+      "house": "Lannister",
+      "synthetic": false,
+      "x": 69.5,
+      "y": 0,
+      "expanded": false,
+      "father": "l1",
+      "mother": "l2",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "l4",
+      "name": "Cersei Lannister",
+      "house": "Lannister",
+      "synthetic": false,
+      "x": 104.2,
+      "y": 0,
+      "expanded": false,
+      "father": "l1",
+      "mother": "l2",
+      "children": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "spouses": [
+        "b2"
+      ]
+    },
+    {
+      "id": "l5",
+      "name": "Tyrion Lannister",
+      "house": "Lannister",
+      "synthetic": false,
+      "x": 71.0,
+      "y": 0,
+      "expanded": false,
+      "father": "l1",
+      "mother": "l2",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "l6",
+      "name": "Joffrey Baratheon",
+      "house": "Baratheon",
+      "synthetic": false,
+      "x": 72.5,
+      "y": 0,
+      "expanded": false,
+      "father": "l3",
+      "mother": "l4",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "l7",
+      "name": "Myrcella Baratheon",
+      "house": "Baratheon",
+      "synthetic": false,
+      "x": 74.0,
+      "y": 0,
+      "expanded": false,
+      "father": "l3",
+      "mother": "l4",
+      "children": [],
+      "spouses": []
+    },
+    {
+      "id": "l8",
+      "name": "Tommen Baratheon",
+      "house": "Baratheon",
+      "synthetic": false,
+      "x": 75.5,
+      "y": 0,
+      "expanded": false,
+      "father": "l3",
+      "mother": "l4",
+      "children": [],
+      "spouses": []
+    }
+  ],
+  "edges": {
+    "marriages": [
+      {
+        "from": {
+          "x": 0,
+          "y": 0
+        },
+        "to": {
+          "x": 1.2,
+          "y": 0
+        }
+      }
+    ],
+    "children": [
+      {
+        "from": {
+          "x": 0,
+          "y": 0
+        },
+        "to": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "from": {
+          "x": 0,
+          "y": 0
+        },
+        "to": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "from": {
+          "x": 0,
+          "y": 0
+        },
+        "to": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "from": {
+          "x": 0,
+          "y": 0
+        },
+        "to": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "from": {
+          "x": 0,
+          "y": 0
+        },
+        "to": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "from": {
+          "x": 0,
+          "y": 0
+        },
+        "to": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ]
+  }
+}
